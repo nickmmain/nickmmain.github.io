@@ -1,29 +1,34 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Xming"
 date:   2020-07-06 14:38:58 -0400
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+**The no-monitor life**
 
-Jekyll requires blog post files to be named according to the following format:
+For whatever reason you may not want to purchase a monitor and you work on your laptop. Maybe you can't afford the one you want right now, or maybe you don't have the space in your apartment/van. 
 
-`YEAR-MONTH-DAY-title.MARKUP`
+So maybe, like me, you've been launching Flask web app every time you wanted to view your picam video feed. Well I recently discovered Xming and it's a little less fuss. 
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+**Xming**
 
-Jekyll also offers powerful support for code snippets:
+Xming uses an open SSH connection to relay the desktop feed from the Raspberry pi to your PC. All you need to do is: 
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+1. Have serverX installed on the device sharing it's desktop feed. On the Raspberry pi it should already be installed. try `startx` in a terminal on your pi to find out.
+2. If you're on Windows, install Xming. 
+3. Using Putty, open an SSH connection to the Pi's IP address, with X11 forwarding enabled to `localhost:0`
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+But what if you don't want to go through Putty every time ? After all we want to eliminate steps here.
+The answer: Windows Subsystem for Linux (WSL). 
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Follow the instructions here: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+Once done, simply using terminal of your WSL:
+
+`SSH -X pi@192.168.137.196`
+
+Which allows you to skip the step of using Putty.
+
+**ServerX, Xwindows, X11 forwarding, etc.**
+
+This next part is the part for the nerds. Read on if curious.
