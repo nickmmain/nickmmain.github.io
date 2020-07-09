@@ -31,16 +31,13 @@ Which allows you to skip the step of using Putty.
 
 **Xserver, X11 forwarding, etc.**
 
-What's with all the X's ? It all comes back to something called the X Window System. 
-The X Window System is a framework on which "displays" can be built. I say "displays" because thats exactly how broad the X Window System was designed to be; it serves as the basis for window managers, as well as desktop environments and ??
+What's with all the X's ? It all comes back to something called the X Window System.
+Applications requiring a UI use the X Window System to draw themselves on a screen. Two particular features of the X Window System are: 
 
-1. you open a good old fashioned terminal and you can do a lot. Probably open a CLI calculator, there's a calendar, you can play music, etc.
-2. you try to open firefox. 
-3. but firefox doesn't have anything to display to ! 
-4. introducing: Xserver. Xserver is an application that takes commands from firefox to draw boxes, widgets, and burning foxes. 
-5. Xserver translates, and passes the translation to the Xclient which draws on the display. THE CLIENT INTERACTS WITH THE HARDWARE. 
+- it's disinterest in your use case; it was developed to be useful in a wide variety of programs.
+- it's client-server architecture.
 
-This client-server setup is what allows me to get the display of the pi accross the network on my PC. 
+The first point there is interesting, but the second is what I want to focus on. Did you think it was bizare that the Xclient is installed on the Raspberry pi ? 
+It's "remote", shouldn't it be the server ?
 
-When you go "startx" from a terminal on raspi, IT MAY APPEAR that you've got yourelf to the desktop, but no. 
-You now have a window manager. 
+The key is that the *program* is the client. In the case of CV2 running on your Raspi, CV2 is the client which is sending requests to the server running on your Windows PC.
