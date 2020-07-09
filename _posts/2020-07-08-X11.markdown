@@ -22,12 +22,17 @@ But what if you don't want to go through Putty every time ? After all we want to
 The answer: Windows Subsystem for Linux (WSL). 
 
 Follow the instructions here: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+Once done, install the Linux distro of your choice from the Microsoft Store. 
 
-Once done, simply using terminal of your WSL:
+Launch your distro of choice. Then set your DISPLAY environment variable:
 
-`SSH -X pi@192.168.137.196`
+`export DISPLAY=localhost:0.0`
 
-Which allows you to skip the step of using Putty.
+(which of course can be automated at your distro's boot up) 
+
+and then contact your pi:
+
+`ssh -X pi@192.168.137.196`
 
 **Xserver, X11 forwarding, etc.**
 
