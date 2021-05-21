@@ -1,48 +1,59 @@
 ---
 layout: post
-title:  "X11"
-date:   2020-07-08 00:00:00 - 0
+title: "X11"
+date: 2021-05-21 00:00:00 - 0
 categories: jekyll update
 ---
+
 **The no-monitor life**
 
-For whatever reason you may not want to purchase a monitor and you work on your laptop. Maybe you can't afford the one you want right now, or maybe you don't have the space in your apartment/van. 
+So you love developing little projects for your Raspberry Pi but for whatever reason you don't have a monitor for it. Maybe you can't afford the one you want right now, or maybe you don't have the space in your apartment/van. All you have is a laptop and a Pi.
 
-So maybe, like me, you've been launching Flask web app every time you wanted to view your picam video feed. I recently took a little dive into the X Window System, and it's less fuss. 
+So maybe, like me, you were launching a Flask web app which was streaming the video feed from a picam, and then you were signing off your apartment/coffee shop's wifi and re-connecting your phone or laptop to the Pi's Wi-fi signal and then going to localhost:4200 just to view that crisp 8MP image.
+
+Recently I found out about the X Window System, and it's interesting and/or useful.
 
 **To get going**
 
-1. Start as you usually do by opening an SSH connection to the pi. 
+1. Start as you usually do by opening an SSH connection to the pi.
 2. Have an Xclient installed on the remote device. On the Raspberry pi it should already be installed. Try `startx` in a terminal on your pi to find out.
-2. If the PC with a display is running Windows, install Xming. 
-3. Run Xming. If the icon shows up in your Task Bar (bottom right), it's running.  
-3. Using Putty, open an SSH connection to the Pi's IP address, with X11 forwarding enabled to `localhost:0`
+3. If the PC with a display is running Windows, install Xming.
+4. Run Xming. If the icon shows up in your Task Bar (bottom right), it's running.
+5. Using Putty, open an SSH connection to the Pi's IP address, with X11 forwarding enabled to `localhost:0`
 
-But what if you don't want to go through Putty every time ? After all we want to eliminate steps here.
-The answer: Windows Subsystem for Linux (WSL). 
+**Snags**
 
-Follow the instructions here: https://docs.microsoft.com/en-us/windows/wsl/install-win10
-Once done, install the Linux distro of your choice from the Microsoft Store. 
+On your Pi, in the sshd_config file at /etc/ssh you need to have the line:
+
+`X11Forwarding yes`
+
+uncommented. I also have the lines
+
+`X11DisplayOffset 10` and
+`X11UseLocalHost yes`
+
+but I don't know if these last two are strictly required. The line `X11UseForwarding yes` **should not** be written into your sshd_config. This must be an outdated configuration, because it will prevent ssh from restarting correctly, and then you'll no longer be able to log onto your Raspberry Pi unless you wipe the SD or buy a monitor (which we've established is not an option for you).
+
+**Things you should know**
+
+The PC on which you're viewing the Pi's output is the X **server**.
+**Applications are the clients** to this server, and are streaming the contents of their windows through SSH to Xming on your PC.
+But what if you want to have the whole Raspberry Pi desktop displayed ?
+
+In this case: `startlxde-pi`.
+
+**WSL**
+You can skip using Putty by using WSL. Follow the instructions here: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+Once done, install the Linux distro of your choice from the Microsoft Store.
 
 Launch your distro of choice. Then set your DISPLAY environment variable:
 
 `export DISPLAY=localhost:0.0`
 
-(which of course can be automated at your distro's boot up) 
+(which can be automated at your distro's boot up)
 
 and then contact your pi:
 
 `ssh -X pi@192.168.137.196`
 
-**Xserver, X11 forwarding, etc.**
-
-What's with all the X's ? It all comes back to something called the X Window System.
-Applications requiring a UI use the X Window System to draw themselves on a screen. Two particular features of the X Window System are: 
-
-- it's disinterest in your use case; it was developed to be useful in a wide variety of programs.
-- it's client-server architecture.
-
-The first point there is interesting, but the second is what I want to focus on. Did you think it was bizare that the Xclient is installed on the Raspberry pi ? 
-It's "remote", shouldn't it be the server ?
-
-The key is that the *program* is the client. In the case of CV2 running on your Raspi, CV2 is the client which is sending requests to the server running on your Windows PC.
+The -X enables X11 forwarding.
