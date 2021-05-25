@@ -1,7 +1,5 @@
 Still to add to X11 artcile, May 21-2021
 
-Pictures which show an APPLICATION using x11 forwarding. 
-
 Why startlxde-pi and not lxsession ? 
 
 Is it better to just use VNC ? What is VNC ?   
@@ -13,3 +11,22 @@ Was it necessary to copy the .Xauthority file into /root ?
 
 Wipe yoru Pi and do the whole thing from scratch.
 --> but first, save your configs....
+
+
+Removed this stuff: 
+**WSL**
+
+You can skip using Putty by using WSL. Follow the instructions here: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+Once done, install the Linux distro of your choice from the Microsoft Store.
+
+Launch your distro of choice. Then set your DISPLAY environment variable:
+
+`export DISPLAY=localhost:0.0`
+
+(which can be automated at your distro's boot up)
+
+and then contact your pi:
+
+`ssh -X pi@192.168.137.196`
+
+The -X enables X11 forwarding.

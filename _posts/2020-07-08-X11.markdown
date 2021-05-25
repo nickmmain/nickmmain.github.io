@@ -39,25 +39,8 @@ The line `X11UseForwarding yes` **should not** be written into your sshd_config.
 
 **Things you should know**
 
-The PC on which you're viewing the Pi's output is the X **server**.
+The PC on which you're viewing the Pi's output is the X **server**.  
 **Applications are the clients** to this server, and are streaming the contents of their windows through SSH to Xming on your PC.
-But what if you want to have the whole Raspberry Pi desktop displayed ?
 
-In this case: `startlxde-pi` will display pi's user desktop on Xming, and `lxsession` will do the same for the root.
-
-**WSL**
-
-You can skip using Putty by using WSL. Follow the instructions here: https://docs.microsoft.com/en-us/windows/wsl/install-win10
-Once done, install the Linux distro of your choice from the Microsoft Store.
-
-Launch your distro of choice. Then set your DISPLAY environment variable:
-
-`export DISPLAY=localhost:0.0`
-
-(which can be automated at your distro's boot up)
-
-and then contact your pi:
-
-`ssh -X pi@192.168.137.196`
-
-The -X enables X11 forwarding.
+**The whole pi**
+What if you want see your Pi's desktop ? In this case: `startlxde-pi` will display pi's user desktop on Xming, and `lxsession` will do the same for the root.
