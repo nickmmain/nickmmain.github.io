@@ -43,4 +43,5 @@ The PC on which you're viewing the Pi's output is the X **server**.
 **Applications are the clients** to this server, and are streaming the contents of their windows through SSH to Xming on your PC.
 
 **The whole pi**
+
 What if you want see your Pi's desktop ? In this case: `startlxde-pi` will display pi's user desktop on Xming, and `lxsession` will do the same for the root.
