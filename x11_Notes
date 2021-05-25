@@ -1,0 +1,15 @@
+Still to add to X11 artcile, May 21-2021
+
+Pictures which show an APPLICATION using x11 forwarding. 
+
+Why startlxde-pi and not lxsession ? 
+
+Is it better to just use VNC ? What is VNC ?   
+
+Why can't you close the frickin' Xming panel or window :'(
+
+Was it necessary to copy the .Xauthority file into /root ?
+--> No.
+
+Wipe yoru Pi and do the whole thing from scratch.
+--> but first, save your configs....
