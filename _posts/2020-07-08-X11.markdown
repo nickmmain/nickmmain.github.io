@@ -22,7 +22,7 @@ So you love developing little projects for your Raspberry Pi but for whatever re
 5. Using Putty, open an SSH connection to the Pi's IP address, with X11 forwarding enabled. The default "X display location" will be Server:0.0, which is the default for Xming too, so nothing to enter here.
 6. Run your application. It should show up on your Windows desktop:
 
-![birdcam.py drawing it's window on my desktop. Free plug for Kerbal Space Program because it's awesome.](../assets/Romeo2.JPG)
+![birdcam.py drawing it's window on my desktop. Free plug for Kerbal Space Program because it's awesome.](./assets/Romeo2.JPG)
 
 **Snags**
 
