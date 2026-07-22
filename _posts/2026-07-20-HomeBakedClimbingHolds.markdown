@@ -13,7 +13,7 @@ I started this project trying to be as cheap as I could be. I found the prices o
 
 > What the heck is cheese cloth, and where would I even find that ?
 
-Writing this now at 31 years old I'm proud to say I know about cheese cloth, Labneh, and i'm generally much better in the kitchen.
+Writing this now at 31 I can say that I've caught up a little. I know about cheese cloth, Labneh, and i'm generally much better in the kitchen.
 
 Then comes the question; what should I model ? What would be my first climbing hold ? Again, I was too cheap to spring for the florists foam, and wasn't even confident in my abilities as a sculptor even if I had the means. So I looked around my apartment for something I would want to grasp as a very climbing-focused  year old boy; a red Bell Pepper, perfect! The climber's fingers would wrap around the curve of the pepper where it met the stem. If this seems desperate and crazy, I can only say that it was Covid times and my mental health may not have been top notch.  
 
