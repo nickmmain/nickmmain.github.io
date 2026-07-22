@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Nick's dev notes
+title: Nick's notes
 email: nickm.main@email.com
-description: Documentation for myself and anyone else who wants it.
+description: Projects and trip reports
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: nickmmain
