@@ -21,5 +21,8 @@ In order to make a mold from hardware store silicone I mixed a bit of warm soapy
 
 Pouring plastic into this mold was difficult because once flipped, the mold would roll around. To rectify this I decided to try a commercial mold material called Mold Max 10 made by a company called Smooth-On. I squared off the cheese cloth pepper mold with this new material so that it could easily be supported while the plastic cured. Luckily it worked; I wasn't sure if the bathroom silicone and the Mold Max would bond, but they did just fine, as you can see from the pink-and-white finished pepper mold.
 
-![The cheese cloth pepper mold](/assets/ClimbingHoldPhotos/CheeseClothPepperMold.jpg)![The cheese cloth pepper](/assets/ClimbingHoldPhotos/CheeseClothPepper.jpg)![A poured pepper](/assets/ClimbingHoldPhotos/PouredPepper.jpg)
+<!-- ![The cheese cloth pepper mold](/assets/ClimbingHoldPhotos/CheeseClothPepperMold.jpg)![The cheese cloth pepper](/assets/ClimbingHoldPhotos/CheeseClothPepper.jpg)![A poured pepper](/assets/ClimbingHoldPhotos/PouredPepper.jpg) -->
 
+cheese cloth pepper mold   |  cheese cloth pepper
+:-------------------------:|:-------------------------:
+![](/assets/ClimbingHoldPhotos/CheeseClothPepperMold.jpg)  |  ![](/assets/ClimbingHoldPhotos/CheeseClothPepper.jpg)
