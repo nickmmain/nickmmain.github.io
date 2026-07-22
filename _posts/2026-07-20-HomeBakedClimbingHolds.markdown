@@ -7,11 +7,11 @@ categories: jekyll update
 
 Recently I discovered that I had lost all of my documentation from the time that I tried to DIY climbing holds from my little apartment in Montreal. I'm going to try to recall everything I learnt, re-try my final recipe, and re-document it here for anyone who might want to try themselves.
 
-** The mistakes **
+**The mistakes**
 
 I started this project trying to be as cheap as I could be. I found the prices of professional mold making materials to be expensive in all except bulk quantities, and I wasn't sure how far I was going to take this project yet. Bathroom silicone and cheese cloth is what the internet proposes for the frugally minded. I remember being a very climbing-focused 24 year old boy, and thinking to myslef at the time: 
 
-what the hell is cheese cloth, and where would I even find that ?
+> What the heck is cheese cloth, and where would I even find that ?
 
 Writing this now at 31 years old I'm proud to say I know about cheese cloth, Labneh, and i'm generally much better in the kitchen.
 
