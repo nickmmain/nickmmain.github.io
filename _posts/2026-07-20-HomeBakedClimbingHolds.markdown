@@ -19,9 +19,9 @@ Then comes the question; what should I model ? What would be my first climbing h
 
 In order to make a mold from hardware store silicone I mixed a bit of warm soapy water with bathroom silicone, then applied it to the half red Bell Pepper, cut in half lying on a piece of plywood. In between the messy, goopy layers of silicone mixture I would lay cheese cloth to give structure.
 
-Pouring plastic into this mold was difficult because once flipped, the mold would roll around. To rectify this I decided to try a commercial mold material called Mold Max 10[^1] made by a company called Smooth-On. I squared off the cheese cloth pepper mold with this new material so that it could easily be supported while the plastic cured. Luckily it worked; I wasn't sure if the bathroom silicone and the Mold Max would bond, but they did just fine, as you can see from the pink-and-white finished pepper mold.
+Pouring plastic into this mold was difficult because once flipped, the mold would roll around. To rectify this I decided to try a commercial mold material called Mold Max 10 [^1] made by a company called Smooth-On. I squared off the cheese cloth pepper mold with this new material so that it could easily be supported while the plastic cured. Luckily it worked; I wasn't sure if the bathroom silicone and the Mold Max would bond, but they did just fine, as you can see from the pink-and-white finished pepper mold.
 
-[1^]: In actual fact I think I ended up using a lot more Alumilite High Strength 3 based on either Reddit research or price, or both. I think the important thing is to use a tin-cured silicone rubber.
+[1^] : In actual fact I think I ended up using a lot more Alumilite High Strength 3 based on either Reddit research or price, or both. I think the important thing is to use a tin-cured silicone rubber.
 
 cheese cloth pepper mold   |  cheese cloth pepper
 :-------------------------:|:-------------------------:
