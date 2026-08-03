@@ -9,7 +9,7 @@ Recently I discovered that I had lost all of my documentation from the time that
 
 **Bathroom Silicone mold and Smooth-Cast 320**
 
-I started this project trying to be as cheap as I could be. I found the prices of commercially available materials for making molds to be expensive, and I wasn't sure how far I was going to take this project yet. Bathroom silicone and cheese cloth is what the internet proposes for the frugally minded.
+I started this project trying to be as cheap as I could be. I found the prices of commercially available materials for making molds to be expensive, and I wasn't sure how far I was going to take this project yet. Bathroom silicone and cheese cloth is what the internet proposes for the frugally minded. Technically this is referred to as a **skin mold** and in the DIY community **the Oogoo method**. 
 
 What would be my first climbing hold ? I was too cheap to buy florists foam, and wasn't even confident in my abilities as a sculptor even if I had the means. So I looked around my apartment for something I would want to climb on. I'm not sure what possessed me, but the best I came up with was a red Bell Pepper. The climber's fingers would wrap around the curve of the pepper where it meets the stem.
 
@@ -17,19 +17,25 @@ In order to make a mold from hardware store silicone I mixed a bit of warm soapy
 
 ![](/assets/ClimbingHoldPhotos/CheeseClothPepperMold.jpg) 
 
-Great ! I had my mold. Using the internet again to determine what material to make my climbing holds out of, I found [this testimonial](https://www.smooth-on.com/spotlight/reaching-heights-smooth-cast-320-liquid-plastic/) so I ordered the smallest quantity the sell. As well as the pepper I also experimented with other shapes using the bathroom silicone and soapy water.
-
-![](/assets/ClimbingHoldPhotos/RandomHolds.jpg)
+Great ! I had my mold. Using the internet again to determine what material to make my climbing holds out of, I found [this testimonial](https://www.smooth-on.com/spotlight/reaching-heights-smooth-cast-320-liquid-plastic/) so I ordered the smallest quantity they sell. This was the resulting pepper hold:
 
 ![](/assets/ClimbingHoldPhotos/CheeseClothPepper.jpg)
 
-Pouring plastic into these molds was difficult because I needed a way to keep the backside of the mold level. Furthermore, the molds were deteriorating quickly; pieces of the mold were coming out with the cured polyurethane climbing hold. To rectify this I decided to try a commercial mold material called Mold Max 10[^1] made by a company called Smooth-On. I squared off the cheese cloth pepper mold with this new material so that it could easily be supported while the plastic cured. Luckily it worked; I wasn't sure if the bathroom silicone and the Mold Max would bond, but they did just fine, as you can see from the finished pepper mold in both white (bathroom silicone) and pink (Mold Max 10).
+I was also experimenting with other shapes using the same materials and procedure described above:
+
+![](/assets/ClimbingHoldPhotos/RandomHolds.jpg)
+
+**Investing in tools and materials**
+
+Pouring plastic into these molds was difficult because I needed a way to keep the backside of the mold level. Furthermore, the molds were deteriorating quickly; pieces of the mold were coming out with the cured polyurethane climbing hold. To fix this I payed the big bucks for Mold Max 10[^1] made by a company called Smooth-On.
 
 [^1]: In actual fact I think I ended up using a lot more Alumilite High Strength 3 based on either Reddit research or price, or both. The important thing is to use a tin-cured silicone rubber.
 
 **A real mold box**
 
-The next step I took was to build a simple mold box so that I could pour an entire mold from Mold Max 10. Below is a photo of the mold box. I had seperated it down the middle to make two molds at once, and the cardboard glued into the corners saves me a little rubber (and money). Can you guess what the next climbing hold is, based on the shape layed out in the box ?
+I also decided to build a simple mold box so that I could pursue using a **block mold** instead of the **skin mold** technique from earlier; this way the resulting mold lies flat on the table. 
+
+Below is a photo of the mold box. I had seperated it down the middle to make two molds at once, and the cardboard glued into the corners saves me a little rubber (and money). Can you guess what the next climbing hold is, based on the shape layed out in the box ?
 
 ![](/assets/ClimbingHoldPhotos/MoldBox.jpg)
 
@@ -38,8 +44,6 @@ The next step I took was to build a simple mold box so that I could pour an enti
 Look again at the shapes of the ugly holds I originally cast in the bathroom silicone above. One of those was a croissant from the bakery around the corner from my apartment. It's a great bakery that makes a really flakey croissant, but that's kinda terrible for your skin, and just downright dangerous once cast in plastic. 
 
 But I still loved the idea of a croissant climbing hold. What makes terrible croissants but could mold really nicely ? **Pillbsury Mini Crescents**. So I made an entire tray of these things, and way overcooked them until they were hard as a rock. I chose the one that turned out best, and glued it to the bottom of my mold box.
-
---> bolt hole blah blah
 
 **The Result**
 
