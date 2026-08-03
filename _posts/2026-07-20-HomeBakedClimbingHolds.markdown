@@ -41,9 +41,17 @@ Below is a photo of the mold box. I had seperated it down the middle to make two
 
 **Croissants**
 
-Look again at the shapes of the ugly holds I originally cast in the bathroom silicone above. One of those was a croissant from the bakery around the corner from my apartment. It's a great bakery that makes a really flakey croissant, but that's kinda terrible for your skin, and just downright dangerous once cast in plastic. 
+In the photo above of the ugly climbing holds, there is one particularly ugly one on the left; it's a croissant from the bakery around the corner from my apartment. It's a great bakery that makes a really flakey croissant, but that's kinda terrible for your skin, and just downright dangerous once cast in plastic. 
 
 But I still loved the idea of a croissant climbing hold. What makes terrible croissants but could mold really nicely ? **Pillbsury Mini Crescents**. So I made an entire tray of these things, and way overcooked them until they were hard as a rock. I chose the one that turned out best, and glued it to the bottom of my mold box.
+
+The resulting holds were great, and the mold material was no longer being ripped from the mold when extracting a cast. Furthermore I was really happy with the level of detail. See below, where I mixed in these coloring powders (which I was not happy with):  
+
+![](/assets/ClimbingHoldPhotos/LittleColor.jpg)
+
+**A note on cured plastic**
+
+While I was now happy with the Pillsbury Crescent molds, I was not so enamored with Smooth-Cast 320. I noticed that the resulting casts were not hard enough. At sharp edges they would chip and I had absolutely no confidence in hanging my body weight from one on a climbing wall. Going forward I decided to use Smooth-On's TASK 2 product. On the website they have a note about making casts more than (**insert dimension here**) thick, and I contacted their customer support about this. In the end, I found the resulting casts were much harder and did not chip away like the Smooth-cast 320 casts did.        
 
 **The Result**
 
