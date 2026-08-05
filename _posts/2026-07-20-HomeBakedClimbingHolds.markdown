@@ -51,9 +51,41 @@ The resulting holds were great, and the mold material was no longer being ripped
 
 **A note on cured plastic**
 
-While I was now happy with the Pillsbury Crescent molds, I was not so enamored with Smooth-Cast 320. I noticed that the resulting casts were not hard enough. At sharp edges they would chip and I had absolutely no confidence in hanging my body weight from one on a climbing wall. Going forward I decided to use Smooth-On's TASK 2 product. On the website they have a note about making casts more than (**insert dimension here**) thick, and I contacted their customer support about this. In the end, I found the resulting casts were much harder and did not chip away like the Smooth-cast 320 casts did.        
+While I was now happy with the Pillsbury Crescent molds, I was not so enamored with Smooth-Cast 320. I noticed that the resulting casts were not hard enough. At sharp edges they would chip and I had absolutely no confidence in hanging my body weight from one on a climbing wall. They did however prove useful as intermediates because I could create another mold from them once a hole was drilled for the (**insert dimension here**) bolt. This would save me some polyurethane (and again, money) and time drilling a bolt hole in every finished piece. Here is the finished mold:
+
+![](/assets/ClimbingHoldPhotos/FinalMold.jpg) 
+
+Going forward I decided to use Smooth-On's TASK 2 product, based on **Shore D hardness** which I read from the specifications on their website. Please note I am not a material scientist or specialist on this topic in any way, this was mostly a blind guess. See below my exchange with one of their Material Specialists:
+
+>Hi there,
+
+>in your webpage for TASK2 product, I noticed that its intended use is for castings <1.5" **(typo)**.
+
+>What would be an equivalent product for castings greater than this depth, and what is the consequence of using TASK2 for a casting of, say, 1" ?
+
+Their reply:
+
+>Thank you for your interest in Smooth-On products.
+
+>The Task 2 is rated for no more than 0.50" thick castings due to it's exotherm while curing. The exotherm is the creation of heat during the curing of a plastic resin. This is often mass sensitive, so in some products, too thick of a mass creates too much heat which will cause the resin to warp and even smoke.
+
+>If you want to pour Task 2 at a thickness that is higher than recommended, you just have to do it in layers. In the case of the Task 2, you can pour 1/2", let it cure, then pour the other 1/2".
+
+>An equivalent to Task 2 depends on which physical properties you are looking for. The Smooth-Cast 305 is white with a fast cure time and no casting thickness restrictions. The Task 7 is also white with a fast cure time. If color isn't an issue, the Smooth-Cast Onyx Fast has very similar physical properties. You can see a comparison of these at the link below. https://www.smooth-on.com/compare/9899/8450/10214/9080/a/
+
+>It really depends on the end product. If you'd like to include some info on what you're making I'd be happy to give a recommendation.
+
+After this I said I was making climbing holds, they said to use Smooth-Cast 320 not knowing I had tried that, but I was happy to have reached out to find out about the warping and smoking. Just for fun I actually hooked up a Raspberry Pi with a thermometer to find out what temperature I was getting for the cure:
+
+Measuring temperatures  |  Results
+:-------------------------:|:-------------------------:
+![](/assets/ClimbingHoldPhotos/MeasuringCureTemps.jpg)  |  ![](/assets/ClimbingHoldPhotos/TempResults.jpg)
+
+I don't think the results of the graph are super pertinent unless you know what a curve of optimal curing looks like, but I still found it neat. Look, Newton's law of cooling !  
 
 **The Result**
+
+In the end, I found the resulting casts were much harder and did not chip away like the Smooth-cast 320 casts did.        
 
 Finished croissants   |  Cross-section
 :-------------------------:|:-------------------------:
