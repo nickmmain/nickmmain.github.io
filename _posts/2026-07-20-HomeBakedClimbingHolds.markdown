@@ -5,7 +5,7 @@ date: 2026-07-20 00:00:00 - 0
 categories: jekyll update
 ---
 
-Recently I discovered that I had lost all of my documentation from the time that I tried to DIY climbing holds from my little apartment in Montreal. I'm going to try to recall everything I learnt, re-try my final recipe, and re-document it here for anyone who might want to try themselves.
+Recently I discovered that I had lost all of my documentation from the time that I tried to DIY climbing holds from my little apartment in Montreal. I'm going to try to recall everything I learnt, re-try my final recipe, and re-document it in another post for anyone who wants to try themselves.
 
 **Bathroom Silicone mold and Smooth-Cast 320**
 
