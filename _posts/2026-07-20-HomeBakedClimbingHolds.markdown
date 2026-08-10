@@ -15,7 +15,7 @@ What would be my first climbing hold ? I was too cheap to buy florists foam, and
 
 In order to make a mold from hardware store silicone I mixed a bit of warm soapy water with bathroom silicone, then applied it to the Bell Pepper which was sliced in half lying on a piece of plywood (after deseeding ofcourse). In between the goopy layers of silicone mixture I would lay cheese cloth to give structure.
 
-![](/assets/ClimbingHoldPhotos/CheeseClothPepperMold.jpg) 
+![](/assets/ClimbingHoldPhotos/CheeseClothPepperMold.jpg)
 
 Great ! I had my mold. Using the internet again to determine what material to make my climbing holds out of, I found [this testimonial](https://www.smooth-on.com/spotlight/reaching-heights-smooth-cast-320-liquid-plastic/) so I ordered the smallest quantity they sell. This was the resulting pepper hold:
 
@@ -27,9 +27,7 @@ I was also experimenting with other shapes using the same materials and procedur
 
 **Investing in tools and materials**
 
-Pouring plastic into these molds was difficult because I needed a way to keep the backside of the mold level. Furthermore, the molds were deteriorating quickly; pieces of the mold were coming out with the cured polyurethane climbing hold. To fix this I payed the big bucks for Mold Max 10[^1] made by a company called Smooth-On.
-
-[^1]: In actual fact I think I ended up using a lot more Alumilite High Strength 3 based on either Reddit research or price, or both. The important thing is to use a tin-cured silicone rubber.
+Pouring plastic into these molds was difficult because I needed a way to keep the backside of the mold level. Furthermore, the molds were deteriorating quickly; pieces of the mold were coming out with the cured polyurethane climbing hold. To fix this I payed the big bucks for Mold Max 10 made by a company called Smooth-On. (*In actual fact I think I used Alumilite High Strength 3 based on either Reddit research or price, or both. The important thing is to use a tin-cured silicone rubber.*)
 
 **A real mold box**
 
@@ -45,7 +43,7 @@ In the photo above of the ugly climbing holds, there is one particularly ugly on
 
 But I still loved the idea of a croissant climbing hold. What makes terrible croissants but could mold really nicely ? **Pillbsury Mini Crescents**. So I made an entire tray of these things, and way overcooked them until they were hard as a rock. I chose the one that turned out best, and glued it to the bottom of my mold box.
 
-The resulting holds were great, and the mold material was no longer being ripped from the mold when extracting a cast. Furthermore I was really happy with the level of detail. See below, where I mixed in these coloring powders (which I was not happy with):  
+The resulting holds were great, and the mold material was no longer being ripped from the mold when extracting a cast. Furthermore I was really happy with the level of detail. See below, where I mixed in these coloring powders (which I was not happy with, too pastel):  
 
 ![](/assets/ClimbingHoldPhotos/LittleColor.jpg)
 
@@ -75,11 +73,11 @@ Their reply:
 
 >It really depends on the end product. If you'd like to include some info on what you're making I'd be happy to give a recommendation.
 
-After this I said I was making climbing holds, they said to use Smooth-Cast 320 not knowing I had tried that, but I was happy to have reached out to find out about the warping and smoking. Just for fun I actually hooked up a Raspberry Pi with a thermometer to find out what temperature I was getting for the cure:
+I was happy to have reached out to find out about the warping and smoking, even if I wasn't going to follow their advice about 320. Just for fun I actually hooked up a Raspberry Pi with a thermometer to find out what temperature I was getting for the cure:
 
-Measuring temperatures  |  Results
-:-------------------------:|:-------------------------:
-![](/assets/ClimbingHoldPhotos/MeasuringCureTemps.jpg)  |  ![](/assets/ClimbingHoldPhotos/TempResults.jpg)
+![](/assets/ClimbingHoldPhotos/MeasuringCureTemps.jpg)
+
+![](/assets/ClimbingHoldPhotos/TempResults.jpg)
 
 I don't think the results of the graph are super pertinent unless you know what a curve of optimal curing looks like, but I still found it neat. Look, Newton's law of cooling !  
 
@@ -94,3 +92,13 @@ Finished croissants   |  Cross-section
 I was happy with that outcome! I've handed these croissants out to various climbers in my network who have variously used them as Christmas tree ornaments, paperweights, or as climbing holds on their spray walls or handboards. My gym at the time even put it on their spray wall.
 
 ![](/assets/ClimbingHoldPhotos/OnTheSprayWall.jpg)
+
+**Notes for future iterations**
+
+These notes really are just for me, but read on if you feel like it.
+
+* These holds are heinously difficult to climb on. It would be great to make a version that still bears a resemblance to a croissant but which is easier to climb on.
+
+* It would be fascinating to buy a pressure chamber to see what effect that has on the cure. If you look closely at these holds the surfaces have bubbling, which is why in that photo above I had cut one in half; I wanted to see if that bubbling was present all the way through.
+
+* Maybe I really was doing something wrong with the Smooth-Cast 320 ? I had purchased some of their Ure-fil product, but can't recall how much I has used, or if I had used any in the casted croissants I was dissatisfied with.
