@@ -16,15 +16,15 @@ What would be my first climbing hold ? I was too cheap to buy florists foam, and
 
 In order to make a mold from hardware store silicone I mixed a bit of warm soapy water with bathroom silicone, then applied it to the Bell Pepper which was sliced in half lying on a piece of plywood (after deseeding ofcourse). In between the goopy layers of silicone mixture I would lay cheese cloth to give structure.
 
-![](/assets/ClimbingHoldPhotos/CheeseClothPepperMold.jpg)
+![](/assets/images/ClimbingHoldPhotos/CheeseClothPepperMold.jpg)
 
 Great ! I had my mold. Using the internet again to determine what material to make my climbing holds out of, I found [this testimonial](https://www.smooth-on.com/spotlight/reaching-heights-smooth-cast-320-liquid-plastic/) so I ordered the smallest quantity they sell. This was the resulting pepper hold:
 
-![](/assets/ClimbingHoldPhotos/CheeseClothPepper.jpg)
+![](/assets/images/ClimbingHoldPhotos/CheeseClothPepper.jpg)
 
 I was also experimenting with other shapes using the same materials and procedure described above:
 
-![](/assets/ClimbingHoldPhotos/RandomHolds.jpg)
+![](/assets/images/ClimbingHoldPhotos/RandomHolds.jpg)
 
 **Investing in tools and materials**
 
@@ -36,7 +36,7 @@ I also decided to build a simple mold box so that I could pursue using a **block
 
 Below is a photo of the mold box. I had seperated it down the middle to make two molds at once, and the cardboard glued into the corners saves me a little rubber (and money). Can you guess what the next climbing hold is, based on the shape layed out in the box ?
 
-![](/assets/ClimbingHoldPhotos/MoldBox.jpg)
+![](/assets/images/ClimbingHoldPhotos/MoldBox.jpg)
 
 **Croissants**
 
@@ -46,13 +46,13 @@ But I still loved the idea of a croissant climbing hold. What makes terrible cro
 
 The resulting holds were great, and the mold material was no longer being ripped from the mold when extracting a cast. Furthermore I was really happy with the level of detail. See below, where I mixed in these coloring powders (which I was not happy with, too pastel):  
 
-![](/assets/ClimbingHoldPhotos/LittleColor.jpg)
+![](/assets/images/ClimbingHoldPhotos/LittleColor.jpg)
 
 **A note on cured plastic**
 
 While I was now happy with the Pillsbury Crescent molds, I was not so enamored with Smooth-Cast 320. I noticed that the resulting casts were not hard enough. At sharp edges they would chip and I had absolutely no confidence in hanging my body weight from one on a climbing wall. They did however prove useful as intermediates because I could create another mold from them once a hole was drilled for the (**insert dimension here**) bolt. This would save me some polyurethane (and again, money) and time drilling a bolt hole in every finished piece. Here is the finished mold:
 
-![](/assets/ClimbingHoldPhotos/FinalMold.jpg) 
+![](/assets/images/ClimbingHoldPhotos/FinalMold.jpg) 
 
 Going forward I decided to use Smooth-On's TASK 2 product, based on **Shore D hardness** which I read from the specifications on their website. Please note I am not a material scientist or specialist on this topic in any way, this was mostly a blind guess. See below my exchange with one of their Material Specialists:
 
@@ -76,9 +76,9 @@ Their reply:
 
 I was happy to have reached out to find out about the warping and smoking, even if I wasn't going to follow their advice about 320. Just for fun I actually hooked up a Raspberry Pi with a thermometer to find out what temperature I was getting for the cure:
 
-![](/assets/ClimbingHoldPhotos/MeasuringCureTemps.jpg)
+![](/assets/images/ClimbingHoldPhotos/MeasuringCureTemps.jpg)
 
-![](/assets/ClimbingHoldPhotos/TempResults.jpg)
+![](/assets/images/ClimbingHoldPhotos/TempResults.jpg)
 
 I don't think the results of the graph are super pertinent unless you know what a curve of optimal curing looks like, but I still found it neat. Look, Newton's law of cooling !  
 
@@ -88,11 +88,11 @@ In the end, I found the resulting casts were much harder and did not chip away l
 
 Finished croissants   |  Cross-section
 :-------------------------:|:-------------------------:
-![](/assets/ClimbingHoldPhotos/PrettyCroissants.jpg)  |  ![](/assets/ClimbingHoldPhotos/FewBubbles.jpg)
+![](/assets/images/ClimbingHoldPhotos/PrettyCroissants.jpg)  |  ![](/assets/images/ClimbingHoldPhotos/FewBubbles.jpg)
 
 I was happy with that outcome! I've handed these croissants out to various climbers in my network who have variously used them as Christmas tree ornaments, paperweights, or as climbing holds on their spray walls or handboards. My gym at the time even put it on their spray wall.
 
-![](/assets/ClimbingHoldPhotos/OnTheSprayWall.jpg)
+![](/assets/images/ClimbingHoldPhotos/OnTheSprayWall.jpg)
 
 **Notes for future iterations**
 

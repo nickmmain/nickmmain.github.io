@@ -1,0 +1,30 @@
+/* Position header over hero image */
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  z-index: 10; /* Keeps toggle above image */
+  border-bottom: none;
+}
+
+/* Ensure hero image container starts at the top edge */
+.page-lead, .hero-image {
+  margin-top: 0;
+}
+
+/* Ensure menu toggle icon is visible on hero background */
+.nav-toggle {
+  color: #ffffff; /* Adjust color based on your hero image */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6); /* Adds contrast */
+}
+
+.nav-toggle:hover {
+  color: #e0e0e0;
+}
+
+/* Ensure open sidebar menu displays above the overlay header */
+.sidebar {
+  z-index: 20;
+}
