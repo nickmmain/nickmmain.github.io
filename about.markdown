@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi I'm Nick !
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This site is where I leave notes about projects (software, 3d printing, polyurethane casting, etc.) of mine that I think other might want to read about. I also do a lot of outdoor activities so I post trip reports too. Please enjoy and don't hesitate to reach out by email at nickm.main@gmail.com.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+![](/assets/images/NickLeadingP2Moonlight.jpg)
