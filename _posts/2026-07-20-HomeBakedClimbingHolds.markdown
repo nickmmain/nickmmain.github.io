@@ -2,7 +2,6 @@
 layout: post
 title: "Home Baked Climbing Holds"
 date: 2026-07-20 00:00:00 - 0
-tab: projects
 categories: jekyll update
 ---
 

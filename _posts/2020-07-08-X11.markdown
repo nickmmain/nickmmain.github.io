@@ -2,7 +2,6 @@
 layout: post
 title: "X11"
 date: 2021-05-25 00:00:00 - 0
-tab: tech
 categories: jekyll update
 ---
 
