@@ -9,9 +9,9 @@ Well it's here folks ! Ai ! The latest craze since the Dot Com bubble or the Bla
 
 Without realizing how much brain space i've allowed it to occupy, I've spent much of 2026 ruminating on the topic.
 
-Here i'm going to dump all the thoughts I've had, and we'll see how they age. I think it's the only thing I **can** do right ? If you detect a hesitant note in my writing so far, it because I am. That's the tl;dr.
+Here i'm going to dump all the thoughts I've had, and we'll see how they age. I think it's the only thing I **can** do right  There will be some hot takes in here, and some unsubstantiated statements. If you detect a hesitant note in my writing so far, it because I am. That's the tl;dr.
 
-There will be some hot takes in here, and some unsubstantiated statements. Shoot me an email if you disagree or resonated with any of it.
+**Ai consternations brain dump 2026**
 
 1. I wish we (like, society) would be precise about the AI they're referring to. An LLM, a VLM, etc. But no, everything is broadly reffered to as "AI".
 
@@ -40,4 +40,4 @@ There will be some hot takes in here, and some unsubstantiated statements. Shoot
 
 8. Warning: This point is a pipe dream and a combination of 5 and 6. Here it is: Truthfully, I always wished I had studied mechanical engineering at university. I studied physics, so sure I have some of the bases but I can't really build something from conception to delivery. If i'm truthful it haunts me. What if I could ask an LLM to be my teacher, and help develop a product. Some gadget, nothing safety critical. Maybe it could walk me through doing a simple Finite Element analysis ? Taking this idea to the limit: If I have a little optimism about this idea, maybe others do too. Maybe it lowers the barrier for people to achieve the career change they've always meant to pursue.
 
-That's it, those are all my thoughts. 
+At the moment those are the thoughts I have on the topic and I haven't decided how I'll revise them. Perhaps a follow up post in a year or so ? Shoot me an email if you disagree or resonated with any of it.
