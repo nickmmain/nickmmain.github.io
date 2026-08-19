@@ -30,14 +30,14 @@ There will be some hot takes in here, and some unsubstantiated statements. Shoot
 
 7. It reduces the barrier to entry on learning. I have learned to cook many more dishes this year, partly from some changes in my personal life but also because if I need the gist on how to cook a piece of white fish I can quickly access that information without the tedium:
 - Choosing the recipe: with the nice photo, which matches the level of complexity that suits my mood
-- Scrolling past all the adds
+- Scrolling past all the ads
 - Choosing the print button so I have recipe without adds
 - Saving it to my phone
 - If I don't have an ingredient, I ask for the substitution options
 - If I need a side, I ask for that too without repeating all these steps
 
-I will say that I think ego (or just experience ? I haven't decided) plays into how much you'll use an AI to learn. I have no ego when it comes to cooking, because I was terrible at it. Even if the AI is only 90% right, I'm still going to get 90% better at cooking (there's a unit conversion problem there but you get my meaning).
+    I will say that I think ego (or just experience ? I haven't decided) plays into how much you'll use an AI to learn. I have no ego when it comes to cooking, because I was terrible at it. Even if the AI is only 90% right, I'm still going to get 90% better at cooking (there's a unit conversion problem there but you get my meaning).
 
 8. Warning: This point is a pipe dream and a combination of 5 and 6. Here it is: Truthfully, I always wished I had studied mechanical engineering at university. I studied physics, so sure I have some of the bases but I can't really build something from conception to delivery. If i'm truthful it haunts me. What if I could ask an LLM to be my teacher, and help develop a product. Some gadget, nothing safety critical. Maybe it could walk me through doing a simple Finite Element analysis ? Taking this idea to the limit: If I have a little optimism about this idea, maybe others do too. Maybe it lowers the barrier for people to achieve the career change they've always meant to pursue.
 
-Well, there they are. I'm putting myself out there, those are my thoughts.
+That's it, those are all my thoughts. 
