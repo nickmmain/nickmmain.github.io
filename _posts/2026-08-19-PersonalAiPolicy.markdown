@@ -40,7 +40,8 @@ AI, The latest craze since the Dot Com bubble or the Blackberry. Will it take ou
 
 7. It reduces the barrier to entry on learning. This time i'll use cooking as an example. I have learned to cook many more dishes this year, partly because I can quickly access that information without the tedium:
 
-    Before: 
+    Before:  
+
         - Choosing the recipe: with the nice photo, which matches the level of complexity that suits my mood
         - Scrolling past all the ads
         - Choosing the print button so I have recipe without adds
@@ -48,11 +49,16 @@ AI, The latest craze since the Dot Com bubble or the Blackberry. Will it take ou
         - An additional search for substitution options
         - Repeat all of this for a side dish
 
-    The other day, I got all that information in one place by asking:
+    The other day, I got all that information in one place by asking:  
+
         - "I'm trying to think of a pretty easy white fish dinner that I can make for 2 people. I think lemony would be nice"
-    It proposed a side of roasted asparagus. I'd always steamed my asparagus, so I asked:
+    
+    It proposed a side of roasted asparagus. I'd always steamed my asparagus, so I asked:  
+      
         - "Tell me about roasted asparagus"
-    Then:
+    
+    Then:  
+
         - "What about a carb for this meal?"
     
     It proposed a Pilaf, which I had never tried before but which was also very easy. I got all that information in one place. 
