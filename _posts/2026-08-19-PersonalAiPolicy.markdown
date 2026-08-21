@@ -11,7 +11,7 @@ AI, The latest craze since the Dot Com bubble or the Blackberry. Will it take ou
 
 1. I wish we (like, society) would be precise about the AI they're referring to. An LLM, a VLM, etc. But no, everything is broadly reffered to as "AI".
 
-2. Being 31 years old as this technology is being shoved down everyone's throat, I will probably treasure all the books on my shelf that much more. What I'm saying is that creative writing may not remain a completely human art form so I now cherish more the pieces of writing I have, written by humans.    
+2. Being 31 years old at the time of writing, I've lived to know when books were written by humans. As such, I'll treasure the books on my shelf that much more. What I'm saying is that creative writing may not remain a completely human art form so I now cherish more the pieces of writing I have, written by humans.    
 
 3. I'm a software developer, and my initial reaction was that I didn't like it. I still don't, if I'm honest. While I'm being paid I will do the cost-benefit analysis on the tool to use and if an LLM wins out, so be it. But I enjoyed doing the little puzzles; it got my brain working and I got that little shot of brain juice at my little successes.
 
