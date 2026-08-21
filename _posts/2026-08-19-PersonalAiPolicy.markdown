@@ -17,34 +17,47 @@ AI, The latest craze since the Dot Com bubble or the Blackberry. Will it take ou
 
 4. It really is terrible for the environment. 
 - Mostly from all the gas-fired power generation needed to run the data centres.
-- It's comparatively not that bad for water.
-- **Takeaway** Use your brain first, then a lite model as much as you can.
+- It's comparatively not that bad for water. I refer you to [Hank](https://youtu.be/H_c6MWk7PQc?si=kWak-dg2Ac-W4CG1)
+- **Takeaway:** use your brain first, then a lite model as much as you can.  
 
-5. The brain rot feels like a real threat. As I settled into using Gemini on a daily basis I noticed that I would no longer form a hypothesis before pressing enter on my keyboard. I've gone from:
+5. The brain rot feels like a real threat. As I settled into using Gemini on a daily basis I noticed that I would no longer form a hypothesis before pressing enter on my keyboard. 
 
-> Think about possible reasons why the code might not work
-> Pose a couple informed questions
-> Get a general idea how the system works
-> Pose a final question which unveils a solution
+    I went from:  
 
-to this:
+        - Think about possible reasons why the code might not work
+        - Pose a couple informed questions
+        - Get a general idea how the system works
+        - Pose a final question which unveils a solution  
+        
+    to this:  
 
-> "The code doesn't work"
-> "It still didn't work"
+        - The code doesn't work
+        - It still didn't work  
 
-I feel bad for those students in high school or university that now need to have the discipline to learn the old fashioned way, when AI is as prevalent as it now is. **Takeaway** Resist the brain rot by always asking the Gemini a thing or two on your way  to the solution. The example here was coding, but applies to anything else.    
+    **Takeaway:** resist the brain rot by always asking the Gemini a thing or two on your way to the solution. The example here was coding, but applies to anything else.     
 
 6. Presuming the hype is real, we would expect to see some epic results. To hyperbolize this and use a very loose example: if AI is as important as touted, I want to see some serious medical breakthroughs in the next 5 years. If we don't see an appreciable increase in the number of novel (e.g.) cancer treatments, maybe it's not as serious as it claims to be. That said, perhaps an impact on creative work is too much to expect, and we will see leaps and bounds when it comes to throughput or consistency; could AI have a greater impact on patient screening rate, or reduction in false negatives ? In my opinion these would be an example of metrics to track when determining the impact of the gargantuan investment in AI presently taking place. 
 
-7. It reduces the barrier to entry on learning. I have learned to cook many more dishes this year, partly because if I need the gist on how to cook a piece of white fish I can quickly access that information without the tedium:
-- Choosing the recipe: with the nice photo, which matches the level of complexity that suits my mood
-- Scrolling past all the ads
-- Choosing the print button so I have recipe without adds
-- Saving it to my phone
-- If I don't have an ingredient, I ask for the substitution options
-- If I need a side, I ask for that too without repeating all these steps
+7. It reduces the barrier to entry on learning. This time i'll use cooking as an example. I have learned to cook many more dishes this year, partly because I can quickly access that information without the tedium:
 
-    I will say that I think ego (or just experience ? I haven't decided) plays into how much you'll use an AI to learn. I have no ego when it comes to cooking, because I was terrible at it. Even if the AI is only 90% right, I'm still going to get 90% better at cooking (there's a unit conversion problem there but you get my meaning).
+    Before: 
+        - Choosing the recipe: with the nice photo, which matches the level of complexity that suits my mood
+        - Scrolling past all the ads
+        - Choosing the print button so I have recipe without adds
+        - Saving it to my phone
+        - An additional search for substitution options
+        - Repeat all of this for a side dish
+
+    The other day, I got all that information in one place by asking:
+        - "I'm trying to think of a pretty easy white fish dinner that I can make for 2 people. I think lemony would be nice"
+    It proposed a side of roasted asparagus. I'd always steamed my asparagus, so I asked:
+        - "Tell me about roasted asparagus"
+    Then:
+        - "What about a carb for this meal?"
+    
+    It proposed a Pilaf, which I had never tried before but which was also very easy. I got all that information in one place. 
+    
+    I think ego (or just experience ? I haven't decided) plays into how much you'll use an AI to learn. I have no ego when it comes to cooking, because I was terrible at it. Even if the AI is only 90% right, I'm still going to get 90% better at cooking (there's a unit conversion problem there but you get my meaning).
 
 8. Warning: This point is a pipe dream and a combination of 6 and 7. Here it is: Truthfully, I always wished I had studied mechanical engineering at university. I studied physics, so sure I have some of the bases but I can't really build something from conception to delivery. If i'm truthful it haunts me. What if I could ask an LLM to be my teacher, and help develop a product. Some gadget, nothing safety critical. Maybe it could walk me through doing a simple Finite Element analysis ? Taking this idea to the limit: If I have a little optimism about this idea, maybe others do too. Maybe it lowers the barrier for people to achieve the career change they've always meant to pursue.
 
