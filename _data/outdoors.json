@@ -1,0 +1,36 @@
+{
+  "basics": {
+    "name": "Dugan Nash",
+    "label": "Outdoor accomplishments",
+    "email": "dugan.hash@mailinator.com",
+    "phone": "(555) 555-5555",
+    "website": "https://towlettepettetuc.ci",
+    "summary": "A place for the routes, races, descents, and adventures that matter most."
+  },
+  "activities": {
+    "climbing": {
+      "title": "Climbing",
+      "intro": "Add your hardest lines, proudest days, and meaningful projects here.",
+      "accomplishments": [
+        {
+          "date": "YYYY-MM-DD",
+          "title": "Accomplishment title",
+          "description": "A short note about the route, event, or milestone.",
+          "location": "Area or crag"
+        }
+      ]
+    },
+    "skiing": {
+      "title": "Skiing",
+      "accomplishments": []
+    },
+    "running": {
+      "title": "Running",
+      "accomplishments": []
+    },
+    "other": {
+      "title": "Other",
+      "accomplishments": []
+    }
+  }
+}

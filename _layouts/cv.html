@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="professional-cv">
+			<header class="professional-cv__header">
+				<h1>{{ site.data.cv.basics.name }}</h1>
+				{% if site.data.cv.basics.label %}<p>{{ site.data.cv.basics.label }}</p>{% endif %}
+				{% if site.data.cv.basics.summary %}<p>{{ site.data.cv.basics.summary }}</p>{% endif %}
+			</header>
+
+			<section class="professional-cv__contact" aria-label="Contact">
+				{% if site.data.cv.basics.email %}<a href="mailto:{{ site.data.cv.basics.email }}">{{ site.data.cv.basics.email }}</a>{% endif %}
+				{% if site.data.cv.basics.phone %}<a href="tel:{{ site.data.cv.basics.phone }}">{{ site.data.cv.basics.phone }}</a>{% endif %}
+				{% if site.data.cv.basics.website %}<a href="{{ site.data.cv.basics.website }}">Website</a>{% endif %}
+			</section>
+
+			{% if site.data.cv.work.size > 0 %}<section><h2>Work</h2>{% for item in site.data.cv.work %}<article><h3>{{ item.position }}{% if item.company %}, {{ item.company }}{% endif %}</h3><p>{{ item.startDate }}{% if item.endDate %} - {{ item.endDate }}{% endif %}</p>{% if item.summary %}<p>{{ item.summary }}</p>{% endif %}{% for highlight in item.highlights %}<p>{{ highlight }}</p>{% endfor %}</article>{% endfor %}</section>{% endif %}
+			{% if site.data.cv.education.size > 0 %}<section><h2>Education</h2>{% for item in site.data.cv.education %}<article><h3>{{ item.studyType }}, {{ item.area }}</h3><p>{{ item.institution }} | {{ item.startDate }}{% if item.endDate %} - {{ item.endDate }}{% endif %}</p></article>{% endfor %}</section>{% endif %}
+			{% if site.data.cv.skills.size > 0 %}<section><h2>Skills</h2>{% for item in site.data.cv.skills %}<article><h3>{{ item.name }}</h3><p>{{ item.level }}{% if item.keywords %}: {{ item.keywords | join: ', ' }}{% endif %}</p></article>{% endfor %}</section>{% endif %}
+			{% if site.data.cv.awards.size > 0 %}<section><h2>Awards</h2>{% for item in site.data.cv.awards %}<article><h3>{{ item.title }}</h3><p>{{ item.date }}{% if item.awarder %} | {{ item.awarder }}{% endif %}</p><p>{{ item.summary }}</p></article>{% endfor %}</section>{% endif %}
+</div>

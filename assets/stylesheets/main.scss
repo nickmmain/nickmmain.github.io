@@ -1,30 +1,89 @@
-/* Position header over hero image */
-.site-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: transparent;
-  z-index: 10; /* Keeps toggle above image */
-  border-bottom: none;
+---
+---
+
+@import "basically-basic";
+
+.professional-cv-page {
+  background: #f7f8f8;
+  color: #393e46;
 }
 
-/* Ensure hero image container starts at the top edge */
-.page-lead, .hero-image {
-  margin-top: 0;
+.professional-cv {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  background: #f7f8f8;
 }
 
-/* Ensure menu toggle icon is visible on hero background */
-.nav-toggle {
-  color: #ffffff; /* Adjust color based on your hero image */
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6); /* Adds contrast */
+.professional-cv__header {
+  padding-bottom: 2rem;
+  border-bottom: 3px solid #00838a;
 }
 
-.nav-toggle:hover {
-  color: #e0e0e0;
+.professional-cv__header h1 {
+  margin: 0;
+  color: #181c22;
+  font-family: "Fira Sans", sans-serif;
+  font-size: clamp(2.5rem, 7vw, 4.5rem);
+  line-height: 1;
 }
 
-/* Ensure open sidebar menu displays above the overlay header */
-.sidebar {
-  z-index: 20;
+.professional-cv__header p {
+  max-width: 680px;
+  margin: 0.75rem 0 0;
+  line-height: 1.6;
+}
+
+.professional-cv__header p:first-of-type {
+  color: #00838a;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+}
+
+.professional-cv__contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding: 1rem 0 3rem;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.85rem;
+}
+
+.professional-cv__contact a { color: #393e46; }
+
+.professional-cv > section:not(.professional-cv__contact) {
+  padding: 2rem 0;
+  border-top: 1px solid #d7dadd;
+}
+
+.professional-cv h2 {
+  margin: 0 0 1.25rem;
+  color: #181c22;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.professional-cv article {
+  margin-bottom: 1.75rem;
+}
+
+.professional-cv article:last-child { margin-bottom: 0; }
+
+.professional-cv h3 {
+  margin: 0;
+  color: #181c22;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.15rem;
+}
+
+.professional-cv article p {
+  max-width: 720px;
+  margin: 0.4rem 0 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 620px) {
+  .professional-cv { padding: 3rem 1.25rem; }
 }

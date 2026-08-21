@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="professional-cv">
+      <header class="professional-cv__header">
+        <h1>{{ site.data.outdoors.basics.name }}</h1>
+        {% if site.data.outdoors.basics.label %}<p>{{ site.data.outdoors.basics.label }}</p>{% endif %}
+        {% if site.data.outdoors.basics.summary %}<p>{{ site.data.outdoors.basics.summary }}</p>{% endif %}
+      </header>
+
+      <section class="professional-cv__contact" aria-label="Contact">
+        {% if site.data.outdoors.basics.email %}<a href="mailto:{{ site.data.outdoors.basics.email }}">{{ site.data.outdoors.basics.email }}</a>{% endif %}
+        {% if site.data.outdoors.basics.phone %}<a href="tel:{{ site.data.outdoors.basics.phone }}">{{ site.data.outdoors.basics.phone }}</a>{% endif %}
+        {% if site.data.outdoors.basics.website %}<a href="{{ site.data.outdoors.basics.website }}">Website</a>{% endif %}
+      </section>
+
+      {% assign activity_keys = 'climbing,skiing,running,other' | split: ',' %}
+      {% for activity_key in activity_keys %}
+        {% assign activity = site.data.outdoors.activities[activity_key] %}
+        {% if activity %}
+          <section>
+            <h2>{{ activity.title | default: activity_key | capitalize }}</h2>
+            {% if activity.intro %}<p>{{ activity.intro }}</p>{% endif %}
+            {% for accomplishment in activity.accomplishments %}
+              <article>
+                <h3>{{ accomplishment.title }}</h3>
+                <p>{{ accomplishment.date | default: 'Date' }}{% if accomplishment.location %} | {{ accomplishment.location }}{% endif %}</p>
+                {% if accomplishment.description %}<p>{{ accomplishment.description }}</p>{% endif %}
+              </article>
+            {% endfor %}
+          </section>
+        {% endif %}
+      {% endfor %}
+</div>
