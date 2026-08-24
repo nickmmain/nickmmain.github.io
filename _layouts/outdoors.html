@@ -24,7 +24,7 @@ layout: default
             {% for accomplishment in activity.accomplishments %}
               <article>
                 <h3>{{ accomplishment.title }}</h3>
-                <p>{{ accomplishment.date | default: 'Date' }}{% if accomplishment.location %} | {{ accomplishment.location }}{% endif %}</p>
+                {% if accomplishment.date or accomplishment.location %}<p>{% if accomplishment.date %}{{ accomplishment.date }}{% endif %}{% if accomplishment.date and accomplishment.location %} | {% endif %}{% if accomplishment.location %}{{ accomplishment.location }}{% endif %}</p>{% endif %}
                 {% if accomplishment.description %}<p>{{ accomplishment.description }}</p>{% endif %}
               </article>
             {% endfor %}

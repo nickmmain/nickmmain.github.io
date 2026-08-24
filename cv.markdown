@@ -1,5 +1,5 @@
 ---
-title: Curriculum Vitæ
+title: Software CV
 layout: cv
 actions:
   - label: "Download as PDF"

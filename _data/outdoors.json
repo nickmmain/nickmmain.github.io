@@ -1,32 +1,77 @@
 {
   "basics": {
-    "name": "Dugan Nash",
-    "label": "Outdoor accomplishments",
-    "email": "dugan.hash@mailinator.com",
-    "phone": "(555) 555-5555",
-    "website": "https://towlettepettetuc.ci",
-    "summary": "A place for the routes, races, descents, and adventures that matter most."
+    "name": "Nicholas Moore",
+    "label": "Outdoor adventures",
+    "email": "nickm.main@gmail.com",
+    "phone": "(438) 824-3873",
+    "website": "https://nickmmain-github-io.pages.dev/",
+    "summary": "A place for the routes, races, descents, and adventures that matter most. If you need beta concernning any of these, please reach out."
   },
   "activities": {
     "climbing": {
       "title": "Climbing",
-      "intro": "Add your hardest lines, proudest days, and meaningful projects here.",
+      "intro": "A few hard days and ambitious projects.",
       "accomplishments": [
         {
-          "date": "YYYY-MM-DD",
-          "title": "Accomplishment title",
-          "description": "A short note about the route, event, or milestone.",
-          "location": "Area or crag"
+          "date": "August",
+          "title": "Free climb of the Northwest Ridge of Bugaboo Spire",
+          "description": "Took 21 hours camp-to-camp because of the melted out B-S Col.",
+          "location": "Bugaboos"
+        },
+        {
+          "title": "Aid climb of Moonlight Buttress"
+        },
+        {
+          "title": "Attempt: Mount Russel",
+          "description": "Bailed due to altitude sickness."
+        },
+        {
+          "title": "Attempt: aid climb of The Nose",
+          "description": "Bailed because it is really hard, and because of inexperience."
         }
       ]
     },
+    "ice climbing": {
+      "title": "Ice Climbing",
+      "accomplishments": []
+    },
     "skiing": {
       "title": "Skiing",
-      "accomplishments": []
+      "accomplishments": [
+        {
+          "title": "STS Couloir, 8812, and Video Peak",
+          "location": "Rogers Pass"
+        },
+        {
+          "title": "Grand Daddy Couloir",
+          "location": "Bow Peak"
+        },
+        {
+          "title": "Attempt: The Seven Steps of Paradise",
+          "description": "Got very close to the top of the Asulkan Glacier, but did not fuel appropriately.",
+          "location": "Asulkan Glacier"
+        },
+        {
+          "title": "Attempt: the Wapta Traverse",
+          "description": "Bailed for incoming weather, which would worsen avalanche conditions."
+        },
+        {
+          "title": "Attempt: Store Austanbotntind",
+          "description": "Completed two thirds of the descent in Norway. Crazy icy conditions prevented us from skiing all the way from the top.",
+          "location": "Norway"
+        }
+      ]
     },
     "running": {
       "title": "Running",
-      "accomplishments": []
+      "accomplishments": [
+        {
+          "date": "2024",
+          "title": "11 Mile Great Adirondack Trail Run",
+          "description": "14th place overall in 2:04:12.",
+          "location": "Great Adirondacks"
+        }
+      ]
     },
     "other": {
       "title": "Other",

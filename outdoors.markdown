@@ -1,5 +1,5 @@
 ---
-title: Outdoor CV
+title: Adventures!
 layout: outdoors
 actions:
   - label: "Download as PDF"

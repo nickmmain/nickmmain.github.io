@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Dugan Nash",
-    "label": "Very extravagant man",
+    "name": "Nicholas Moore",
+    "label": "Software developer",
     "picture": "",
-    "email": "dugan.hash@mailinator.com",
-    "phone": "(555) 555-5555",
-    "website": "https://towlettepettetuc.ci",
-    "summary": "Nash is well versed in the Montoyan / Artesian Connection, preparation of grasshopper mash, and baking of grover loaves.",
+    "email": "nickm.main@gmail.com",
+    "phone": "(438)-824-3873",
+    "website": "https://nickmmain-github-io.pages.dev/",
+    "summary": "",
     "location": {
-      "address": "123 Sesame Street",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "6582 Jeanne Mance",
+      "postalCode": "H2V 4L2",
+      "city": "Montreal",
+      "countryCode": "CA",
+      "region": "Quebec"
     },
     "profiles": [
       {
@@ -29,15 +29,54 @@
   },
   "work": [
     {
-      "company": "The Whip",
-      "position": "CEO/President",
-      "website": "https://thewh.ip",
+      "company": "Genetec",
+      "position": "Software Developer II",
+      "startDate": "April 2022",
+      "endDate": "present",
+      "summary": "Building software that tackles challenges in law enforcement and parking enforcement.",
+      "highlights": [
+        "Maintained Patroller, a legacy WPF desktop application that communicates over WCF with the PlateReader application running on an in-vehicle computer.",
+        "Developed Captain, a Flutter mobile application intended to replace the Patroller client.",
+        "Selected SQLite as Captain's local database engine and integrated the Drift ORM to provide a type-safe persistence layer.",
+        "Worked on offline-first workflows and data synchronization for both Patroller and Captain, supporting reliable operation in the field.",
+        "Reviewed the Bloc and Flutter documentation, identified architectural issues in Captain's initial design, and helped refactor the application into a more modular structure.",
+        "Authored and presented threat models for new and existing features, identifying security risks and guiding mitigations.",
+        "Surveyed the cryptographic algorithms used throughout Patroller as part of a post-quantum cryptography assessment, categorizing those requiring immediate updates versus future migration.",
+        "Implemented and maintained unit tests, advocating for unit-test coverage as a core part of the development process.",
+        "Investigated application performance issues using JetBrains dotMemory for memory profiling and diagnosis.",
+        "Collaborated closely with QA throughout development to validate features, investigate defects, and improve product quality.",
+        "Conducted intern interviews across multiple academic terms and contributed to candidate evaluation.",
+        "Resolved customer SWAT issues in the field, balancing current-client support with planned feature development and maintenance work."
+      ]
+    },
+        {
+      "company": "OneOcean",
+      "position": "Junior Software Developer",
+      "startDate": "May 2017",
+      "endDate": "October 2021",
+      "summary": "Building software that tackles the challenges in the spheres of law enforcement and parking enforcement.",
+      "highlights": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "company": "Genetec",
+      "position": "Software Developer II",
       "startDate": "2013-12-01",
       "endDate": "",
-      "summary": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+      "summary": "Building software that tackles the challenges in the spheres of law enforcement and parking enforcement.",
       "highlights": [
-        "Concealed nipper in embrodiery.",
-        "Dealt with Elastical Gomez on a daily basis."
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     }
   ],
