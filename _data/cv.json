@@ -16,14 +16,13 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "Towlette_Pettetucci",
-        "url": "https://twitter.com/Towlette_Pettetucci"
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nicholas-moore-950102"
       },
       {
-        "network": "SoundCloud",
-        "username": "Towlette_Pettetucci",
-        "url": "https://soundcloud.com/Towlette_Pettetucci"
+        "network": "Github",
+        "username": "nickmmain",
+        "url": "https://github.com/nickmmain"
       }
     ]
   },
@@ -54,114 +53,71 @@
       "position": "Junior Software Developer",
       "startDate": "May 2017",
       "endDate": "October 2021",
-      "summary": "Building software that tackles the challenges in the spheres of law enforcement and parking enforcement.",
+      "summary": "My first developer role, where I learned C# and the .NET ecosystem.",
       "highlights": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Maintained and developed new features for SeaPassage, a C# application supporting maritime operations.",
+        "Learned C# and the .NET ecosystem by applying existing Java experience to production software development.",
+        "Designed and maintained offline-first workflows, enabling SeaPassage to operate reliably with intermittent connectivity.",
+        "Developed and integrated Azure backend components, including Azure Functions, queues, topics, and Service Bus messaging.",
+        "Applied core software design principles including single responsibility and inversion of control to produce modular, maintainable code.",
+        "Wrote unit tests as part of the development process, establishing testing practices that continued into subsequent roles.",
+        "Provided Tier 2 technical support through Salesforce for vessels at sea, helping customers keep electronic navigational publications and charts current and avoid costly regulatory fines.",
+        "Participated in Agile planning by estimating task complexity and contributing to sprint retrospectives."
       ]
     },
     {
-      "company": "Genetec",
-      "position": "Software Developer II",
-      "startDate": "2013-12-01",
+      "company": "OneOcean",
+      "position": "Automated QA developer",
+      "startDate": "2017-12-01",
       "endDate": "",
-      "summary": "Building software that tackles the challenges in the spheres of law enforcement and parking enforcement.",
+      "summary": "Ensuring the quality and reliability of software supporting maritime operations.",
       "highlights": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Steve's Meat Market",
-      "position": "Assistant",
-      "website": "",
-      "startDate": "1995-01-01",
-      "endDate": "1997-03-20",
-      "summary": "Ground up some sort of grasshopper mash for fishing.",
-      "highlights": [
-        "Awarded a 'Helium Biscuit'"
+        "Learned Python without prior university coursework and applied it to software quality assurance and test automation.",
+        "Performed regression testing ahead of important software releases, identifying defects before deployment.",
+        "Contributed to automated acceptance and regression testing using Robot Framework.",
+        "Developed basic tests for RESTful APIs, gaining practical experience with API-based application integration.",
+        "Wrote integration tests to verify interactions between application components and external services.",
+        "Performed manual testing primarily for SeaPassage, validating workflows and investigating defects before release.",
+        "Used Selenium to automate web UI tests and repetitive browser-based tasks."
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Ointment",
-      "area": "Digital Skillets",
+      "institution": "Concordia University",
+      "area": "physics and computer science",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Perpendicular Crosstalk",
-        "CS2011 - Introduction to Moisturization"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Warble Pioneer Award",
-      "date": "2001-11-01",
-      "awarder": "Levi Goulet",
-      "summary": "Have you seen my turtle?"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Radio Julius",
-      "publisher": "Tanyo Lubbock",
-      "releaseDate": "2014-10-01",
-      "website": "https://en.rhy.es",
-      "summary": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test."
+      "startDate": "September 2012",
+      "endDate": "May 2017"
     }
   ],
   "skills": [
     {
-      "name": "Audio Juggling",
-      "level": "Master",
+      "name": "Bicycle tinkering",
+      "level": "Journeyman",
       "keywords": [
-        "Ointment",
-        "Voltor",
-        "Millipedes"
+        "Vintage bikes",
+        "Friction shifters",
+        "Frankenbike"
       ]
     },
     {
-      "name": "Bruschotti",
-      "level": "Satisfactory",
+      "name": "Birding",
+      "level": "Journeyman",
       "keywords": [
-        "Snow camp",
-        "Owl"
+        "Photography",
+        "Ornithology"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Nonsense",
+      "language": "English",
       "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
+    },
     {
-      "name": "The Information Superhighway",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": " Nannette Nananacci",
-      "reference": "It is my pleasure to recommend Dugan Nash, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "language": "French",
+      "fluency": "Fluent"
     }
   ]
 }

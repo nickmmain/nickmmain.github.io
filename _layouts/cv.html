@@ -12,6 +12,7 @@ layout: default
 				{% if site.data.cv.basics.email %}<a href="mailto:{{ site.data.cv.basics.email }}">{{ site.data.cv.basics.email }}</a>{% endif %}
 				{% if site.data.cv.basics.phone %}<a href="tel:{{ site.data.cv.basics.phone }}">{{ site.data.cv.basics.phone }}</a>{% endif %}
 				{% if site.data.cv.basics.website %}<a href="{{ site.data.cv.basics.website }}">Website</a>{% endif %}
+				{% for profile in site.data.cv.basics.profiles %}{% if profile.url %}<a href="{{ profile.url }}">{{ profile.network }}</a>{% endif %}{% endfor %}
 			</section>
 
 						{% if site.data.cv.work.size > 0 %}<section><h2>Work</h2>{% for item in site.data.cv.work %}<article><h3>{{ item.position }}{% if item.company %}, {{ item.company }}{% endif %}</h3><p>{{ item.startDate }}{% if item.endDate %} - {{ item.endDate }}{% endif %}</p>{% if item.summary %}<p>{{ item.summary }}</p>{% endif %}{% assign highlights = item.highlights | where_exp: "highlight", "highlight != empty" %}{% if highlights.size > 0 %}<ul class="professional-cv__highlights">{% for highlight in highlights %}<li>{{ highlight }}</li>{% endfor %}</ul>{% endif %}</article>{% endfor %}</section>{% endif %}
