@@ -16,8 +16,19 @@
 }
 
 .professional-cv__header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
   padding-bottom: 2rem;
   border-bottom: 3px solid #00838a;
+}
+
+.professional-cv__picture {
+  width: 8rem;
+  height: 8rem;
+  flex: 0 0 8rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .professional-cv__header h1 {
@@ -98,4 +109,12 @@
 
 @media (max-width: 620px) {
   .professional-cv { padding: 3rem 1.25rem; }
+
+  .professional-cv__header { align-items: flex-start; gap: 1.25rem; }
+
+  .professional-cv__picture {
+	width: 5.5rem;
+	height: 5.5rem;
+	flex-basis: 5.5rem;
+  }
 }

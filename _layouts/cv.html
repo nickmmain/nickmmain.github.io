@@ -3,9 +3,12 @@ layout: default
 ---
 <div class="professional-cv">
 			<header class="professional-cv__header">
-				<h1>{{ site.data.cv.basics.name }}</h1>
-				{% if site.data.cv.basics.label %}<p>{{ site.data.cv.basics.label }}</p>{% endif %}
-				{% if site.data.cv.basics.summary %}<p>{{ site.data.cv.basics.summary }}</p>{% endif %}
+					{% if site.data.cv.basics.picture and site.data.cv.basics.picture != empty %}<img class="professional-cv__picture" src="{{ site.data.cv.basics.picture | relative_url }}" alt="{{ site.data.cv.basics.name }}">{% endif %}
+					<div>
+						<h1>{{ site.data.cv.basics.name }}</h1>
+						{% if site.data.cv.basics.label %}<p>{{ site.data.cv.basics.label }}</p>{% endif %}
+						{% if site.data.cv.basics.summary %}<p>{{ site.data.cv.basics.summary }}</p>{% endif %}
+					</div>
 			</header>
 
 			<section class="professional-cv__contact" aria-label="Contact">
