@@ -5,8 +5,6 @@ date: 2026-08-26 00:00:00 - 0
 categories: jekyll update
 ---
 
-![](/assets/images/TheNose/Portaledge.jpg)
-
 This post will first give our Nose attempt by the numbers, then list 20 things we wish we had done differently and then a small list of things we were happy with.
 
 **By the numbers**
@@ -19,6 +17,10 @@ This post will first give our Nose attempt by the numbers, then list 20 things w
 - Sleeping: each of us had a G7 portaledge and a sleeping bag.
 - Water: 1 Gallon per person per day = 10 gallons = 37.85 Kilograms.
 - Hauling: 1-to-1 with a microtraxion.
+
+![](/assets/images/TheNose/Portaledge.jpg)
+
+**Lessons**
 
 Alex and I made this list as we basked in the regret of not having pushed through, so you know it's genuine. I've ordered them roughly by importance, and arguably the last 10 are just complaints. The explanations that follow each point are added at the time of writing.
 
@@ -53,7 +55,9 @@ Alex and I made this list as we basked in the regret of not having pushed throug
 19. Rigid case for my sunglasses.
 20. Rope protectors for the fixed ropes to Sickle Ledge. It's just better for the ropes.
 
-Stuff we did well
+**Stuff we did well**
+
+Not an exhaustive list I just don't like tooting my own horn too much.
 
 1. Leave a Big Wall permit in your window to allow you to sleep in the RV in the park (?)
 2. Ropes were well chosen.
@@ -65,3 +69,5 @@ Stuff we did well
 7. Chilling with David and Joni.
 - Make friends on the wall! It could save your ass. 
 8. Sunglasses! I think it would have been rough on the face & eyes otherwise.
+
+![](/assets/images/TheNose/NickOnStoveLegs.jpg)
