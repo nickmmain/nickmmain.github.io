@@ -107,8 +107,67 @@
   line-height: 1.6;
 }
 
-@media (max-width: 620px) {
+.layout--home .inner {
+  max-width: 1280px;
+}
+
+.home-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(180px, 1fr);
+  gap: 5rem;
+  align-items: start;
+}
+
+.home-column .section-title {
+  margin-top: 0;
+}
+
+.home-links {
+  padding: 1.5rem;
+  border: 1px solid #d7dadd;
+}
+
+.home-links__intro {
+  margin: 0 0 1.5rem;
+  line-height: 1.5;
+}
+
+.link-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link-list__item {
+  padding: 0 0 1.25rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid #d7dadd;
+}
+
+.link-list__item:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.link-list__item a {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.link-list__item p {
+  margin: 0.35rem 0 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
   .professional-cv { padding: 3rem 1.25rem; }
+
+  .home-columns {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
 
   .professional-cv__header { align-items: flex-start; gap: 1.25rem; }
 
