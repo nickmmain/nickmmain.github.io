@@ -14,20 +14,29 @@
       "intro": "A few hard days and ambitious projects.",
       "accomplishments": [
         {
-          "date": "August",
+          "date": "August 2021",
           "title": "Free climb of the Northwest Ridge of Bugaboo Spire",
           "description": "Took 21 hours camp-to-camp because of the melted out B-S Col.",
           "location": "Bugaboos"
         },
         {
-          "title": "Aid climb of Moonlight Buttress"
-        },
-        {
-          "title": "Attempt: Mount Russel",
+          "date": "May 2024",
+          "title": "Mount Russel (attempt)",
           "description": "Bailed due to altitude sickness."
         },
         {
-          "title": "Attempt: aid climb of The Nose",
+          "date": "October 2024",
+          "title": "Free Climb Castleton Tower",
+          "description": "Can you believe they put a car up here?"
+        },
+        {
+          "date": "January 2025",
+          "title": "Aid climb of Moonlight Buttress",
+          "description": "To celebreate my buddy's 40th! Zion is incredibly beaufitul in January."
+        },
+        {
+          "date": "November 2025",
+          "title": "Aid climb of The Nose (attempt)",
           "description": "Bailed because it is really hard, and because of inexperience."
         }
       ]
@@ -40,26 +49,33 @@
       "title": "Skiing",
       "accomplishments": [
         {
-          "title": "STS Couloir, 8812, and Video Peak",
-          "location": "Rogers Pass"
+          "date":"March 2023",
+          "title": "The Seven Steps of Paradise (attempt)",
+          "description": "I just bonked, it's a slog to get out there! I skied most of the steps anyway.",
+          "location": "The Asulkan Glacier"
         },
         {
+          "date": "January 2025",
           "title": "Grand Daddy Couloir",
+          "description": "Possibly the best ski descent of my life.",
           "location": "Bow Peak"
         },
         {
-          "title": "Attempt: The Seven Steps of Paradise",
-          "description": "Got very close to the top of the Asulkan Glacier, but did not fuel appropriately.",
-          "location": "Asulkan Glacier"
-        },
-        {
-          "title": "Attempt: the Wapta Traverse",
-          "description": "Bailed for incoming weather, which would worsen avalanche conditions."
-        },
-        {
-          "title": "Attempt: Store Austanbotntind",
+          "date": "April 2025",
+          "title": "Store Austanbotntind (attempt)",
           "description": "Completed two thirds of the descent in Norway. Crazy icy conditions prevented us from skiing all the way from the top.",
           "location": "Norway"
+        },
+        {
+          "date": "March 2026", 
+          "title": "Wapta Traverse (attempt)",
+          "description": "Bailed for incoming weather, which would worsen avalanche conditions.",
+          "location": "The Wapta Icefield"
+        },
+        {
+          "title": "STS Couloir, 8812, and Video Peak",
+          "description": "There's always snow in the pass!",
+          "location": "Rogers Pass"
         }
       ]
     },
