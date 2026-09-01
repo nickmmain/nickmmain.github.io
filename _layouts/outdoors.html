@@ -17,12 +17,110 @@ layout: default
         {% if site.data.outdoors.basics.website %}<a href="{{ site.data.outdoors.basics.website }}">Website</a>{% endif %}
       </section>
 
+      {% comment %}
+      <section class="outdoor-timeline" aria-labelledby="outdoor-timeline-title">
+        <h2 id="outdoor-timeline-title">Timeline</h2>
+        <div class="outdoor-timeline__list" id="outdoor-timeline-list" aria-live="polite"></div>
+      </section>
+
+      <script type="application/json" id="outdoors-data">{{ site.data.outdoors | jsonify }}</script>
+      <script>
+        (function () {
+          var dataEl = document.getElementById('outdoors-data');
+          if (!dataEl) return;
+
+          var outdoorData = JSON.parse(dataEl.textContent || '{}');
+          var container = document.getElementById('outdoor-timeline-list');
+          if (!container || !outdoorData || !outdoorData.activities) return;
+
+          var entries = [];
+
+          Object.keys(outdoorData.activities || {}).forEach(function (activityKey) {
+            var activity = outdoorData.activities[activityKey] || {};
+            var accomplishments = Array.isArray(activity.accomplishments) ? activity.accomplishments : [];
+
+            accomplishments.forEach(function (item) {
+              entries.push({
+                activityKey: activityKey,
+                activityTitle: activity.title || activityKey,
+                title: item.title,
+                description: item.description,
+                location: item.location,
+                date: item.date || '',
+                sortDate: parseDate(item.date)
+              });
+            });
+          });
+
+          entries.sort(function (a, b) {
+            var aHasDate = a.sortDate !== null;
+            var bHasDate = b.sortDate !== null;
+
+            if (aHasDate && bHasDate) {
+              return a.sortDate - b.sortDate;
+            }
+
+            if (aHasDate !== bHasDate) {
+              return aHasDate ? -1 : 1;
+            }
+
+            return (a.title || '').localeCompare(b.title || '');
+          });
+
+          container.innerHTML = entries.map(function (entry) {
+            var meta = [];
+
+            if (entry.date) meta.push(entry.date);
+            if (entry.location) meta.push(entry.location);
+            if (entry.activityTitle) meta.push(entry.activityTitle);
+
+            return '<article class="outdoor-timeline__item">' +
+              '<div class="outdoor-timeline__content">' +
+                '<h3>' + escapeHtml(entry.title || 'Untitled accomplishment') + '</h3>' +
+              '</div>' +
+            '</article>';
+          }).join('');
+
+          function parseDate(value) {
+            if (!value || value === 'present') return null;
+            var trimmed = String(value).trim();
+
+            if (/^\d{4}$/.test(trimmed)) {
+              return new Date(Date.UTC(Number(trimmed), 0, 1)).getTime();
+            }
+
+            var parsed = Date.parse(trimmed);
+            if (!isNaN(parsed)) return parsed;
+
+            return null;
+          }
+
+          function escapeHtml(value) {
+            return String(value)
+              .replace(/&/g, '&amp;')
+              .replace(/</g, '&lt;')
+              .replace(/>/g, '&gt;')
+              .replace(/"/g, '&quot;')
+              .replace(/'/g, '&#039;');
+          }
+        })();
+      </script>
+      {% endcomment %}
+
       {% assign activity_keys = 'climbing,skiing,running,other' | split: ',' %}
       {% for activity_key in activity_keys %}
         {% assign activity = site.data.outdoors.activities[activity_key] %}
         {% if activity %}
           <section>
-            <h2>{{ activity.title | default: activity_key | capitalize }}</h2>
+            <h2>
+              {% case activity_key %}
+                {% when 'climbing' %}🧗
+                {% when 'skiing' %}⛷️
+                {% when 'running' %}🏃
+                {% when 'other' %}🌄
+              {% endcase %}
+              {{ activity.title | default: activity_key | capitalize }}
+            </h2>
             {% if activity.intro %}<p>{{ activity.intro }}</p>{% endif %}
             {% for accomplishment in activity.accomplishments %}
               <article>

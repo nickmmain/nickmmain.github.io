@@ -14,30 +14,42 @@
       "intro": "A few hard days and ambitious projects.",
       "accomplishments": [
         {
-          "date": "August 2021",
-          "title": "Free climb of the Northwest Ridge of Bugaboo Spire",
-          "description": "Took 21 hours camp-to-camp because of the melted out B-S Col.",
-          "location": "Bugaboos"
+          "date": "November 2025",
+          "title": "The Nose (attempt)",
+          "description": "Bailed because it is really hard, and because of inexperience.",
+          "style": "Big Wall, aid"
+        },
+        {
+          "date": "October 2024",
+          "title": "Castleton Tower",
+          "description": "Can you believe they put a car up here?",
+          "style": "Free"
         },
         {
           "date": "May 2024",
           "title": "Mount Russel (attempt)",
-          "description": "Bailed due to altitude sickness."
+          "description": "Bailed due to altitude sickness.",
+          "style": "Attempted free"
         },
         {
-          "date": "October 2024",
-          "title": "Free Climb Castleton Tower",
-          "description": "Can you believe they put a car up here?"
+          "date": "January 2024",
+          "title": "Moonlight Buttress",
+          "description": "To celebreate my buddy's 40th! Zion is incredibly beaufitul in January.",
+          "style": "Aid"
         },
         {
-          "date": "January 2025",
-          "title": "Aid climb of Moonlight Buttress",
-          "description": "To celebreate my buddy's 40th! Zion is incredibly beaufitul in January."
+          "date": "August 2021",
+          "title": "NE Ridge of Bugaboo Spire",
+          "description": "Took 21 hours camp-to-camp because of the melted out B-S Col.",
+          "location": "Bugaboos",
+          "style": "Free"
         },
         {
-          "date": "November 2025",
-          "title": "Aid climb of The Nose (attempt)",
-          "description": "Bailed because it is really hard, and because of inexperience."
+          "date": "June 2019",
+          "title": "NE Ridge of the Pinnacle, Moby Grape, and Whitney Gilman Ridge",
+          "description": "Joyeaux Saint-Jean! Completed each of these over a 3 day weekend.",
+          "location": "White Mountains of New Hampshire",
+          "style": "Free"
         }
       ]
     },
@@ -49,16 +61,10 @@
       "title": "Skiing",
       "accomplishments": [
         {
-          "date":"March 2023",
-          "title": "The Seven Steps of Paradise (attempt)",
-          "description": "I just bonked, it's a slog to get out there! I skied most of the steps anyway.",
-          "location": "The Asulkan Glacier"
-        },
-        {
-          "date": "January 2025",
-          "title": "Grand Daddy Couloir",
-          "description": "Possibly the best ski descent of my life.",
-          "location": "Bow Peak"
+          "date": "March 2026", 
+          "title": "Wapta Traverse (attempt)",
+          "description": "Bailed for incoming weather, which would worsen avalanche conditions.",
+          "location": "The Wapta Icefield"
         },
         {
           "date": "April 2025",
@@ -67,10 +73,16 @@
           "location": "Norway"
         },
         {
-          "date": "March 2026", 
-          "title": "Wapta Traverse (attempt)",
-          "description": "Bailed for incoming weather, which would worsen avalanche conditions.",
-          "location": "The Wapta Icefield"
+          "date": "January 2025",
+          "title": "Grand Daddy Couloir",
+          "description": "Possibly the best ski descent of my life.",
+          "location": "Bow Peak"
+        },
+        {
+          "date":"March 2023",
+          "title": "The Seven Steps of Paradise (attempt)",
+          "description": "I just bonked, it's a slog to get out there! I skied most of the steps anyway.",
+          "location": "The Asulkan Glacier"
         },
         {
           "title": "STS Couloir, 8812, and Video Peak",
