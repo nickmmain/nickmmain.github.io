@@ -159,8 +159,71 @@
   line-height: 1.6;
 }
 
+.site-title a {
+  min-height: 72px;
+}
+
+.site-logo {
+  width: 72px;
+  height: 72px;
+}
+
 .layout--home .inner {
   max-width: 1280px;
+}
+
+.layout--home #masthead {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.layout--home .site-title {
+  background: transparent;
+}
+
+.layout--home .site-title a,
+.layout--home .sidebar-toggle-wrapper,
+.layout--home .sidebar-toggle-label {
+  color: #fff;
+}
+
+.layout--home .sidebar-toggle-wrapper {
+  background: transparent;
+}
+
+.layout--home .navicon,
+.layout--home .navicon::before,
+.layout--home .navicon::after {
+  background-color: #fff;
+}
+
+.layout--home .intro {
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.layout--home .intro-image {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.layout--home .intro-image::before {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.28), transparent 45%);
+}
+
+.layout--home .intro > .inner {
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 0;
+}
+
+.layout--home .intro-title {
+  max-width: 48rem;
+  font-size: clamp(1.75rem, 4vw, 3rem);
 }
 
 .home-columns {
