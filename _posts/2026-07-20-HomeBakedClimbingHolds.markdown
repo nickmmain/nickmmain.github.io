@@ -77,7 +77,7 @@ I was happy to have reached out to find out about the warping and smoking, even 
 
 ![](/assets/images/ClimbingHoldPhotos/MeasuringCureTemps.jpg)
 
-![](/assets/images/ClimbingHoldPhotos/TempResults.jpg)
+![](/assets/images/ClimbingHoldPhotos/CastingTemperatureSampling.jpg)
 
 I don't think the results of the graph are super pertinent unless you know what a curve of optimal curing looks like, but I still found it neat. Look, Newton's law of cooling !  
 
