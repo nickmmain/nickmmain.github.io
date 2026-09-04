@@ -35,7 +35,7 @@
       "summary": "Building software that tackles challenges in law enforcement and parking enforcement.",
       "highlights": [
         "Maintaining an offline-first WPF client and .Net Core backend, both deployed in law enforcement vehicles.",
-        "Developing a Flutter mobile application intended to replace current WPF implementation.",
+        "Developing a Flutter mobile application in order to one day move beyond a Windows-centric front-end",
         "Selecting SQLite as the Flutter application database engine and integrated the Drift ORM to provide a type-safe persistence layer.",
         "Working on offline-first workflows and data synchronization, supporting reliable operation in the field.",
         "Reviewing the Bloc and Flutter documentation, identified architectural issues in initial design, and helped refactor the application into a more modular structure.",
